@@ -1,18 +1,12 @@
 {
-  "name": "esp-website",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
+  "name": "untitled",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "vue": "^3.3.11"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^4.5.2",
-    "vite": "^5.0.10"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

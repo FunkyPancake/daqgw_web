@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<nav>
+    <label for="menu" tabindex="0">MENU</label>
+    <input id="menu" type="checkbox"/>
+    <ul>
+        <li onclick="onClickGauges">GAUGES</li>
+        <li onclick="onClickChart">CHART</li>
+        <li onclick="onClickConfig">CONFIG</li>
+    </ul>
+</nav>
+<div id="content-container" class="container"></div>
+<!--<div id="chart-temperature" class="container"></div>-->
+<!--<label>measurements-->
+<!--    <select >-->
+<!--        <option>item1</option>-->
+<!--        <option>item2</option>-->
+<!--    </select>-->
+<!--</label>-->
+<!--<div id="chart-humidity" class="container"></div>-->
+<!--<div id="chart-pressure" class="container"></div>-->
+<script src="index.js"></script>
+</body>
+</html>
